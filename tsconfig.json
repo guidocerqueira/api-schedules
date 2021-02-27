@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+     "lib": [
+        "es5",
+        "es6",
+        "ES2019"
+     ],
+     "target": "ES2019",
+     "module": "commonjs",
+     "moduleResolution": "node",
+     "outDir": "./build",
+     "sourceMap": false,
+     "strict": false,
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+  }
+}
