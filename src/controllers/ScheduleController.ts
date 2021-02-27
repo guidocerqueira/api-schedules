@@ -21,10 +21,7 @@ class ScheduleController {
         const { start, end } = req.query
 
         if (!start || !end) {
-            return res.status(400).json({
-                error: true,
-                message: 'Date interval not found'
-            })
+            return res.status(200).json(schedules)
         }
 
         const startDate = stringToDate(start.toString())
