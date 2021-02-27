@@ -1,4 +1,4 @@
-# Schedule
+# Schedule API
 
 Schedule management for appointments
 
